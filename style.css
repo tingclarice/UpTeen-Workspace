@@ -1,0 +1,441 @@
+/* CSS for home page */
+.header{
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+}
+body{
+  background-color: #344e41;
+  font-family: 'Quicksand', sans-serif;
+  margin: 20px 40px;
+}
+#mainbox{
+  font-size: 30px;
+  cursor: pointer;
+  transition: all .6s;
+  color: #dad7cd;
+  left: 6px;
+}
+.logo
+{ 
+  width: 250px;
+  object-fit: center;
+  display: block; 
+  justify-content: center;
+  margin: auto;
+  /*position: absolute;*/
+  position: relative;
+}
+.sidemenu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: #dad7cd; 
+  z-index: 1;
+  padding-top: 100px;
+  overflow-x: hidden;
+  transition: all .5s;
+}
+.sidemenu a{
+  padding: 8px 8px 8px 64px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #344e41;
+  display: block;
+}
+.sidemenu a:hover{
+  color: #588157;
+}
+.sidemenu .closebtn{
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px;
+}
+#videohome {
+    position: relative;
+    margin: 0%; 
+    height: 100%;
+    width: 100%;
+    top:0;  
+    left:0;  
+    right:0;  
+    bottom:0;
+}
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer-container{
+  background-color: #344e41;
+  padding-bottom: 2rem;
+}
+.footer{
+  width: 100%;
+  height: 20vh;
+  color: #dad7cd;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.footer-header{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+
+}
+.footer-heading h2{
+  margin-bottom: 2rem;
+}
+.footer-email-form h2{
+  margin-bottom: 2rem;
+}
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem; 
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+  color: #588157;
+}
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #dad7cd;
+  outline: none;
+  border: none;
+  color: #344e41;
+  font-size: 1rem;
+  font-family:  'Quicksand', sans-serif;
+}
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #588157;
+  transition: all 0.4s ease-out;
+}
+
+/* end of CSS for home page */
+
+/* start of CSS for blog page */
+
+.header{
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+
+/* CSS for community page starts */
+body{
+  background-color: #344e41;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #dad7cd;
+}
+.middle{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  position: relative;
+  display: block;
+  color:white; 
+  font-size:30px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none; 
+  margin: 50px 0; 
+  border: 3px solid salmon; 
+  padding: 15px 40px;
+  text-transform: uppercase; 
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center; 
+}
+
+
+.btn:hover{
+  background-color: lightseagreen; 
+}
+
+
+
+
+/* End of css for community page */
+/* css for about page */
+.box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  height: 50px;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+  padding: 150px;
+  box-sizing: border-box;
+  background: #588157;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.box .imgBx{
+  width: 20px;
+  flex: 10px;
+}
+.box .imgBx img{
+  max-width: 400px;
+  max-height: 290px;
+  border: double;
+  border-color: #DAD7CD;
+}
+.box .content {
+  padding-left: 240px;
+}
+ .box2 {
+  position: absolute;
+  top: 120%;
+  left: 645px;
+  right: 20px;
+  height: 50px;
+  width: 1150px;
+  transform: translate(-50%, -50%);
+  padding: 150px;
+  box-sizing: border-box;
+  background: #588157;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.box2 .imgBx2 {
+  width: 30px;
+  flex: 35px;
+  padding-right: 130px;
+}
+.box2 .imgBx2 img{
+  max-width: 400px;
+  max-height: 290px;
+  border: double;
+  border-color: #DAD7CD;
+}
+.box2 .content2{
+  padding-right: 60px;
+}
+.box3 {
+  position: absolute;
+  top: 195%;
+  left: 50%;
+  height: 50px;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+  padding: 150px;
+  box-sizing: border-box;
+  background: #588157;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.box3 .imgBx3{
+  width: 20px;
+  flex: 10px;
+}
+.box3 .imgBx3 img{
+  max-width: 400px;
+  max-height: 290px;
+  border: double;
+  border-color: #DAD7CD;
+}
+.box3 .content3 {
+  padding-left: 230px;
+}
+.box4 {
+  position: absolute;
+  top: 270%;
+  left: 50%;
+  height: 50px;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+  padding: 150px;
+  box-sizing: border-box;
+  background: #588157;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.box4 .imgBx4{
+  width: 330px;
+  flex: 250px;
+  padding-right: 10px;
+}
+.box4 .imgBx4 img{
+  max-width: 400px;
+  max-height: 290px;
+  border: double;
+  border-color: #DAD7CD;
+
+}
+.box4 .content4 {
+   padding-right: 40px;
+}
+.box5 {
+  position: absolute;
+  top: 350%;
+  left: 645px;
+  right: 20px;
+  height: 50px;
+  width: 1150px;
+  transform: translate(-50%, -50%);
+  padding: 150px;
+  box-sizing: border-box;
+  background: #588157;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  /* margin-bottom: 300px;  */
+}
+.box5 .imgBx5 {
+  width: 30px;
+  flex: 35px;
+  padding-right: 130px;
+  /* margin-bottom: 100px; */
+}
+.box5 .imgBx5 img{
+  max-width: 400px;
+  max-height: 290px;
+  border: double;
+  border-color: #DAD7CD;
+
+}
+.box5 .content5{
+  padding-left: 120px;
+  /* margin-bottom: 100px; */
+}
+
+/* end of css for page */
+
+/* css for workspace page */
+/* cash flow */
+.center-body {
+  text-align: center;
+}
+
+.cashflow-div {
+  background-color: #588157;
+  border-radius: 15px;
+  padding-top: 20px; 
+  padding-bottom: 50px; 
+  margin-bottom: 50px;
+}
+
+.workspace-label {
+  font-size: 36px;
+}
+
+.cash-input {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #DAD7CD;
+  border: 2.5px solid #3A5A40;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.cash-button {
+  padding: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 20px;
+  background-color: #DAD7CD;
+  border: 3px solid #3A5A40;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #3A5A40;
+  border-radius: 10px;
+}
+
+.cash-button:hover {
+  background-color: rgba(78, 124, 87, 0.4);
+  border: 3px solid #DAD7CD;
+  font-size: 20px;
+  color: #DAD7CD;
+}
+
+.flow-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: 50px; 
+}
+
+.balance-div {
+  margin: 20px;
+  margin-bottom: 25px; 
+  font-size: 20px;
+}
+/* cash flow end */
+/* financial goals start */
+
+.goals-input {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #DAD7CD;
+  border: 2.5px solid #3A5A40;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.goals-button {
+  padding: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 60px;
+  background-color: #DAD7CD;
+  border: 3px solid #3A5A40;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #3A5A40;
+  border-radius: 10px;
+}
+
+.goals-button:hover {
+  background-color: rgba(78, 124, 87, 0.4);
+  border: 3px solid #DAD7CD;
+  font-size: 20px;
+  color: #DAD7CD;
+}
+
+.goals-div {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.goals-list {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.goal-param{
+  font-size: 20px;
+}
+/* financial goals done */
+/* end of css workspace page */

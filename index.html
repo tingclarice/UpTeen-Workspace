@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Workspace</title>
+
+    <!--Links style.css to HTML-->
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+
+    <!--Links jQuery library to HTML-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body class="center-body">
+      <div class= "header">
+        <div id="mainbox" onclick="openFunction()">&#9776;</div>
+        <div id="menu" class="sidemenu">
+          <a href="/index.html">Home</a>
+          <a href="/HTML-Files/About.html">About</a> 
+          <a href="/HTML-Files/Blog.html">Blog</a>
+          <a href="/HTML-Files/Community.html">Community</a>
+          <a href="/HTML-Files/Workspace.html">Workspace</a> 
+          <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>   
+      </div>
+    <a href="/index.html">
+        <img class="logo" src="/Assets/logo.png">
+    </a>
+<br> 
+
+    <!-- HTML -->
+    <!-- Start of Cash Flow HTML -->
+    <div class="cashflow-div">
+      <form class="cashflow-form">
+
+        <label class="workspace-label"> CASH FLOW </label><br>
+        
+        <input type = "text" class = "cash-input">
+
+        <select class="cash-input" id="flowtype" name="flowtype">
+          <option value="income">income</option>
+          <option value="outcome">outcome</option>
+        </select><br>
+
+        <input type = "submit" class = "cash-button"><br>
+      </form> 
+    
+      <section class="cash-container">
+          <div class="balance-div">
+
+            <p class="current-balance"> Current Balance: $0</p>
+
+          </div>
+
+          <div class="flow-div">
+            <p class="flowtype-total">Income Total:<br> $0 </p>
+          <div class="flow-div">
+            <p class="flowtype-total">Outcome Total:<br> $0 </p>
+          </div>
+      </section>
+    </div>
+    <!-- End of Cash Flow HTML -->
+
+    <!-- Start of Financial Goals HTML -->
+    <div class="goals-div">
+      <form>
+        <label class="workspace-label"> ------- FINANCIAL GOALS -------</label><br>
+        
+        <input type = "text" class = "goals-input"><br>
+        <input type = "submit" class = "goals-button"><br>
+      </form> 
+      <h3 class="goals-list">List:</h3>
+      <section class="goals-container">
+          
+      </section>
+    </div>
+
+    <!--Links script.js to HTML. Do not code below this line-->
+    <script src="/script.js"></script>
+  </body>
+
+</html>
